@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1815AC2E292E8559002778D9 /* SlidingGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815AC2D292E8559002778D9 /* SlidingGalleryView.swift */; };
+		1815AC4A292F6216002778D9 /* FullscreenGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1815AC49292F6216002778D9 /* FullscreenGallery.swift */; };
+		181C4C23293F160600467012 /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C4C22293F160600467012 /* SFSafariViewWrapper.swift */; };
+		182D32C82982E0BA00A9CAD6 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D32C72982E0BA00A9CAD6 /* ImageModifier.swift */; };
+		182FEBC5292F82100091C5A3 /* DemoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FEBC4292F82100091C5A3 /* DemoScreen.swift */; };
+		184A7352293726BB00AC4BB7 /* CarJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 184A7351293726BB00AC4BB7 /* CarJSON.json */; };
+		1851A6CB2980BE0F00B43BD7 /* StarRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851A6CA2980BE0F00B43BD7 /* StarRating.swift */; };
+		1851A7132980DEF400B43BD7 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1851A7122980DEF400B43BD7 /* ConfettiSwiftUI */; };
+		1851A7152980F8F500B43BD7 /* recentlySearchedStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851A7142980F8F500B43BD7 /* recentlySearchedStruct.swift */; };
+		1851A73129810A0600B43BD7 /* HomeScreenRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851A73029810A0600B43BD7 /* HomeScreenRow.swift */; };
+		1851A73329811DB600B43BD7 /* HomeScreenRecentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851A73229811DB600B43BD7 /* HomeScreenRecentRow.swift */; };
+		1851A73529812B1D00B43BD7 /* RecentlyViewed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851A73429812B1D00B43BD7 /* RecentlyViewed.swift */; };
+		186D29C32931236800EAE7C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D29C22931236800EAE7C5 /* HomeView.swift */; };
+		1876F51A29340F5200B3D796 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876F51929340F5200B3D796 /* FilterView.swift */; };
+		1876F51C293449DF00B3D796 /* FilterViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876F51B293449DF00B3D796 /* FilterViewRow.swift */; };
+		187D8577297F5AC5005129E6 /* PopularBodyCarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D8576297F5AC5005129E6 /* PopularBodyCarCard.swift */; };
+		187D8579297F6E8C005129E6 /* CustomButtonTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D8578297F6E8C005129E6 /* CustomButtonTap.swift */; };
+		187D857B297F80B6005129E6 /* attributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D857A297F80B6005129E6 /* attributedString.swift */; };
+		189C9F1F297783D3003ED1C5 /* CustomListWithAlphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C9F1E297783D3003ED1C5 /* CustomListWithAlphabet.swift */; };
+		18C8ED2F292D478C00951533 /* CarStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8ED2E292D478C00951533 /* CarStats.swift */; };
+		18C8ED31292D766800951533 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8ED30292D766800951533 /* DescriptionView.swift */; };
+		18C8ED33292D76AD00951533 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8ED32292D76AD00951533 /* ListRow.swift */; };
+		18EC0D2B292B238E0086A7E5 /* AutoTraderCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC0D2A292B238E0086A7E5 /* AutoTraderCloneApp.swift */; };
+		18EC0D2D292B238E0086A7E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC0D2C292B238E0086A7E5 /* ContentView.swift */; };
+		18EC0D2F292B23910086A7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC0D2E292B23910086A7E5 /* Assets.xcassets */; };
+		18EC0D32292B23910086A7E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EC0D31292B23910086A7E5 /* Preview Assets.xcassets */; };
+		18EC0D39292B2EDB0086A7E5 /* SearchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC0D38292B2EDB0086A7E5 /* SearchCard.swift */; };
+		18EC0D3B292B37D40086A7E5 /* CarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC0D3A292B37D40086A7E5 /* CarCard.swift */; };
+		18EC0D3D292B480A0086A7E5 /* CarCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC0D3C292B480A0086A7E5 /* CarCardData.swift */; };
+		18EC0D43292B4D0A0086A7E5 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC0D42292B4D0A0086A7E5 /* Bundle-Decodable.swift */; };
+		18EC0D45292B7CB60086A7E5 /* CarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC0D44292B7CB60086A7E5 /* CarDetailView.swift */; };
+		18F648F72983B6B800AB51D3 /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F648F62983B6B800AB51D3 /* Cars.swift */; };
+		18F648FA2984CDE700AB51D3 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F648F92984CDE700AB51D3 /* ViewExtension.swift */; };
+		18F648FC2984CE2800AB51D3 /* EdgeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F648FB2984CE2800AB51D3 /* EdgeBorder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1815AC2D292E8559002778D9 /* SlidingGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingGalleryView.swift; sourceTree = "<group>"; };
+		1815AC49292F6216002778D9 /* FullscreenGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenGallery.swift; sourceTree = "<group>"; };
+		181C4C22293F160600467012 /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
+		182D32C72982E0BA00A9CAD6 /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
+		182FEBC4292F82100091C5A3 /* DemoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoScreen.swift; sourceTree = "<group>"; };
+		184A7351293726BB00AC4BB7 /* CarJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CarJSON.json; sourceTree = "<group>"; };
+		1851A6CA2980BE0F00B43BD7 /* StarRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRating.swift; sourceTree = "<group>"; };
+		1851A7142980F8F500B43BD7 /* recentlySearchedStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentlySearchedStruct.swift; sourceTree = "<group>"; };
+		1851A73029810A0600B43BD7 /* HomeScreenRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenRow.swift; sourceTree = "<group>"; };
+		1851A73229811DB600B43BD7 /* HomeScreenRecentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenRecentRow.swift; sourceTree = "<group>"; };
+		1851A73429812B1D00B43BD7 /* RecentlyViewed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyViewed.swift; sourceTree = "<group>"; };
+		186D29C22931236800EAE7C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1876F51929340F5200B3D796 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		1876F51B293449DF00B3D796 /* FilterViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewRow.swift; sourceTree = "<group>"; };
+		187D8575297F5115005129E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		187D8576297F5AC5005129E6 /* PopularBodyCarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularBodyCarCard.swift; sourceTree = "<group>"; };
+		187D8578297F6E8C005129E6 /* CustomButtonTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonTap.swift; sourceTree = "<group>"; };
+		187D857A297F80B6005129E6 /* attributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = attributedString.swift; sourceTree = "<group>"; };
+		189C9F1E297783D3003ED1C5 /* CustomListWithAlphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListWithAlphabet.swift; sourceTree = "<group>"; };
+		18C8ED2E292D478C00951533 /* CarStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStats.swift; sourceTree = "<group>"; };
+		18C8ED30292D766800951533 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		18C8ED32292D76AD00951533 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		18EC0D27292B238E0086A7E5 /* AutoTraderClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoTraderClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EC0D2A292B238E0086A7E5 /* AutoTraderCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTraderCloneApp.swift; sourceTree = "<group>"; };
+		18EC0D2C292B238E0086A7E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18EC0D2E292B23910086A7E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EC0D31292B23910086A7E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18EC0D38292B2EDB0086A7E5 /* SearchCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCard.swift; sourceTree = "<group>"; };
+		18EC0D3A292B37D40086A7E5 /* CarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCard.swift; sourceTree = "<group>"; };
+		18EC0D3C292B480A0086A7E5 /* CarCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCardData.swift; sourceTree = "<group>"; };
+		18EC0D42292B4D0A0086A7E5 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		18EC0D44292B7CB60086A7E5 /* CarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailView.swift; sourceTree = "<group>"; };
+		18F648F62983B6B800AB51D3 /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		18F648F92984CDE700AB51D3 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		18F648FB2984CE2800AB51D3 /* EdgeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBorder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EC0D24292B238E0086A7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1851A7132980DEF400B43BD7 /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EC0D1E292B238E0086A7E5 = {
+			isa = PBXGroup;
+			children = (
+				18EC0D29292B238E0086A7E5 /* AutoTraderClone */,
+				18EC0D28292B238E0086A7E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EC0D28292B238E0086A7E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EC0D27292B238E0086A7E5 /* AutoTraderClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EC0D29292B238E0086A7E5 /* AutoTraderClone */ = {
+			isa = PBXGroup;
+			children = (
+				18F648F82984CDCE00AB51D3 /* Extensions */,
+				187D8575297F5115005129E6 /* Info.plist */,
+				18EC0D2A292B238E0086A7E5 /* AutoTraderCloneApp.swift */,
+				18EC0D2C292B238E0086A7E5 /* ContentView.swift */,
+				182FEBC4292F82100091C5A3 /* DemoScreen.swift */,
+				18C8ED32292D76AD00951533 /* ListRow.swift */,
+				1851A73429812B1D00B43BD7 /* RecentlyViewed.swift */,
+				18F648F62983B6B800AB51D3 /* Cars.swift */,
+				18EC79132944384B00A91A63 /* MainScreen */,
+				18EC79122944381800A91A63 /* CarDetails */,
+				18EC7911294437E400A91A63 /* Filter */,
+				18EC7915294438B300A91A63 /* Helper */,
+				18EC79162944394200A91A63 /* Model */,
+				18EC0D2E292B23910086A7E5 /* Assets.xcassets */,
+				18EC0D30292B23910086A7E5 /* Preview Content */,
+				18F648FB2984CE2800AB51D3 /* EdgeBorder.swift */,
+			);
+			path = AutoTraderClone;
+			sourceTree = "<group>";
+		};
+		18EC0D30292B23910086A7E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18EC0D31292B23910086A7E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18EC7911294437E400A91A63 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				1876F51B293449DF00B3D796 /* FilterViewRow.swift */,
+				1876F51929340F5200B3D796 /* FilterView.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		18EC79122944381800A91A63 /* CarDetails */ = {
+			isa = PBXGroup;
+			children = (
+				18C8ED30292D766800951533 /* DescriptionView.swift */,
+				18EC0D44292B7CB60086A7E5 /* CarDetailView.swift */,
+				1815AC2D292E8559002778D9 /* SlidingGalleryView.swift */,
+				1815AC49292F6216002778D9 /* FullscreenGallery.swift */,
+				182D32C72982E0BA00A9CAD6 /* ImageModifier.swift */,
+				18C8ED2E292D478C00951533 /* CarStats.swift */,
+				1851A6CA2980BE0F00B43BD7 /* StarRating.swift */,
+			);
+			path = CarDetails;
+			sourceTree = "<group>";
+		};
+		18EC79132944384B00A91A63 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				186D29C22931236800EAE7C5 /* HomeView.swift */,
+				187D8578297F6E8C005129E6 /* CustomButtonTap.swift */,
+				18EC0D38292B2EDB0086A7E5 /* SearchCard.swift */,
+				189C9F1E297783D3003ED1C5 /* CustomListWithAlphabet.swift */,
+				18EC0D3A292B37D40086A7E5 /* CarCard.swift */,
+				187D8576297F5AC5005129E6 /* PopularBodyCarCard.swift */,
+				187D857A297F80B6005129E6 /* attributedString.swift */,
+				1851A7142980F8F500B43BD7 /* recentlySearchedStruct.swift */,
+				1851A73029810A0600B43BD7 /* HomeScreenRow.swift */,
+				1851A73229811DB600B43BD7 /* HomeScreenRecentRow.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		18EC7915294438B300A91A63 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				181C4C22293F160600467012 /* SFSafariViewWrapper.swift */,
+				18EC0D42292B4D0A0086A7E5 /* Bundle-Decodable.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18EC79162944394200A91A63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				184A7351293726BB00AC4BB7 /* CarJSON.json */,
+				18EC0D3C292B480A0086A7E5 /* CarCardData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18F648F82984CDCE00AB51D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18F648F92984CDE700AB51D3 /* ViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EC0D26292B238E0086A7E5 /* AutoTraderClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EC0D35292B23910086A7E5 /* Build configuration list for PBXNativeTarget "AutoTraderClone" */;
+			buildPhases = (
+				18EC0D23292B238E0086A7E5 /* Sources */,
+				18EC0D24292B238E0086A7E5 /* Frameworks */,
+				18EC0D25292B238E0086A7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoTraderClone;
+			packageProductDependencies = (
+				1851A7122980DEF400B43BD7 /* ConfettiSwiftUI */,
+			);
+			productName = AutoTraderClone;
+			productReference = 18EC0D27292B238E0086A7E5 /* AutoTraderClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EC0D1F292B238E0086A7E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					18EC0D26292B238E0086A7E5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 18EC0D22292B238E0086A7E5 /* Build configuration list for PBXProject "AutoTraderClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EC0D1E292B238E0086A7E5;
+			packageReferences = (
+				1851A7112980DEF400B43BD7 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			productRefGroup = 18EC0D28292B238E0086A7E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EC0D26292B238E0086A7E5 /* AutoTraderClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EC0D25292B238E0086A7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC0D32292B23910086A7E5 /* Preview Assets.xcassets in Resources */,
+				184A7352293726BB00AC4BB7 /* CarJSON.json in Resources */,
+				18EC0D2F292B23910086A7E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EC0D23292B238E0086A7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1815AC2E292E8559002778D9 /* SlidingGalleryView.swift in Sources */,
+				18EC0D3D292B480A0086A7E5 /* CarCardData.swift in Sources */,
+				18EC0D3B292B37D40086A7E5 /* CarCard.swift in Sources */,
+				186D29C32931236800EAE7C5 /* HomeView.swift in Sources */,
+				18F648FC2984CE2800AB51D3 /* EdgeBorder.swift in Sources */,
+				18EC0D45292B7CB60086A7E5 /* CarDetailView.swift in Sources */,
+				18C8ED31292D766800951533 /* DescriptionView.swift in Sources */,
+				18F648F72983B6B800AB51D3 /* Cars.swift in Sources */,
+				1876F51C293449DF00B3D796 /* FilterViewRow.swift in Sources */,
+				181C4C23293F160600467012 /* SFSafariViewWrapper.swift in Sources */,
+				1851A6CB2980BE0F00B43BD7 /* StarRating.swift in Sources */,
+				189C9F1F297783D3003ED1C5 /* CustomListWithAlphabet.swift in Sources */,
+				187D857B297F80B6005129E6 /* attributedString.swift in Sources */,
+				1851A73129810A0600B43BD7 /* HomeScreenRow.swift in Sources */,
+				1815AC4A292F6216002778D9 /* FullscreenGallery.swift in Sources */,
+				1851A73329811DB600B43BD7 /* HomeScreenRecentRow.swift in Sources */,
+				182D32C82982E0BA00A9CAD6 /* ImageModifier.swift in Sources */,
+				18C8ED33292D76AD00951533 /* ListRow.swift in Sources */,
+				18EC0D2D292B238E0086A7E5 /* ContentView.swift in Sources */,
+				187D8579297F6E8C005129E6 /* CustomButtonTap.swift in Sources */,
+				18F648FA2984CDE700AB51D3 /* ViewExtension.swift in Sources */,
+				18EC0D2B292B238E0086A7E5 /* AutoTraderCloneApp.swift in Sources */,
+				1851A7152980F8F500B43BD7 /* recentlySearchedStruct.swift in Sources */,
+				18EC0D39292B2EDB0086A7E5 /* SearchCard.swift in Sources */,
+				187D8577297F5AC5005129E6 /* PopularBodyCarCard.swift in Sources */,
+				1876F51A29340F5200B3D796 /* FilterView.swift in Sources */,
+				18C8ED2F292D478C00951533 /* CarStats.swift in Sources */,
+				182FEBC5292F82100091C5A3 /* DemoScreen.swift in Sources */,
+				18EC0D43292B4D0A0086A7E5 /* Bundle-Decodable.swift in Sources */,
+				1851A73529812B1D00B43BD7 /* RecentlyViewed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18EC0D33292B23910086A7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EC0D34292B23910086A7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EC0D36292B23910086A7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoTraderClone/Preview Content\"";
+				DEVELOPMENT_TEAM = QEGAMCA563;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AutoTraderClone/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesarmer.AutoTraderClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EC0D37292B23910086A7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AutoTraderClone/Preview Content\"";
+				DEVELOPMENT_TEAM = QEGAMCA563;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AutoTraderClone/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesarmer.AutoTraderClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EC0D22292B238E0086A7E5 /* Build configuration list for PBXProject "AutoTraderClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC0D33292B23910086A7E5 /* Debug */,
+				18EC0D34292B23910086A7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EC0D35292B23910086A7E5 /* Build configuration list for PBXNativeTarget "AutoTraderClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EC0D36292B23910086A7E5 /* Debug */,
+				18EC0D37292B23910086A7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1851A7112980DEF400B43BD7 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1851A7122980DEF400B43BD7 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1851A7112980DEF400B43BD7 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18EC0D1F292B238E0086A7E5 /* Project object */;
+}
