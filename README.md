@@ -11,3 +11,7 @@ I decided to build this project as a way to apply the knowledge that I have lear
 
 ## List View
 ![AutoTraderCloneListView_AdobeExpress](https://user-images.githubusercontent.com/116413320/228200677-0bcc5457-17c5-4730-8906-b151a60b72d2.gif)
+
+
+## Image Gallary
+![AutoTraderCloneSmallGallary_AdobeExpress](https://user-images.githubusercontent.com/116413320/228202163-00cbeff3-d901-4652-84a3-7cdec48aae78.gif)
