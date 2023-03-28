@@ -9,6 +9,10 @@ I decided to build this project as a way to apply the knowledge that I have lear
 ![AutoTraderCloneHome_AdobeExpress](https://user-images.githubusercontent.com/116413320/228197733-c88be345-85b1-4fe1-8759-9266bafe800e.gif)
 
 
+## Search
+![ATCSearch_AdobeExpress](https://user-images.githubusercontent.com/116413320/228252862-0eb7a100-bf53-458d-a136-16347244cdd6.gif)
+
+
 ## List View
 ![AutoTraderCloneListView_AdobeExpress](https://user-images.githubusercontent.com/116413320/228200677-0bcc5457-17c5-4730-8906-b151a60b72d2.gif)
 
