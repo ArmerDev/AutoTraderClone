@@ -60,10 +60,12 @@ switch sortedBy {
 ## Recently Searched & Recently Viewed
 ![Screen_Recording_2023-03-28_at_14_23_49_AdobeExpress](https://user-images.githubusercontent.com/116413320/228259587-c8ffe86f-a773-424e-b372-13b6160898fc.gif)
 
+Recently searched and recently viewed vehicles are displayed within the ScrollView on the home screen for quick access in the future.
 
 ## List View
 ![AutoTraderCloneListView_AdobeExpress](https://user-images.githubusercontent.com/116413320/228200677-0bcc5457-17c5-4730-8906-b151a60b72d2.gif)
 
+A view was created as a template to display each vehicle in the List view. This view displays data such as the vehicles price, age, milage, location, the number of images of the vehicles, as well as displaying the first three images of the vehicle.
 
 ## Image Gallary
 ![AutoTraderCloneSmallGallary_AdobeExpress](https://user-images.githubusercontent.com/116413320/228202163-00cbeff3-d901-4652-84a3-7cdec48aae78.gif)
