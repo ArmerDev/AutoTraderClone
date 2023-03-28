@@ -22,7 +22,7 @@ The drag gesture along the alphabet down the right hand side of the screen was i
 ## Sorting Results
 ![Screen_Recording_2023-03-28_at_14_58_07_AdobeExpress](https://user-images.githubusercontent.com/116413320/228262802-ab45c165-6192-4ec5-8759-2cc0b9accc22.gif)
 
-An array containing the sorting options was assigned to a constant called sortOptions, which is used within a ForEach loop to have each option displayed within the Picker view. The picker is displayed within a Menu view.
+An array containing the sorting options was assigned to a constant called sortOptions, which is used within a ForEach loop to have each option displayed within the Picker view. The picker is displayed within a Menu view so that it can be presented in the way shown above.
 
 ```Swift
 let sortOptions = ["Price (Lowest)", "Price (Highest)", "Distance", "Mileage", "Age (Newest first)", "Age (Oldest first)", "Most recent"]
