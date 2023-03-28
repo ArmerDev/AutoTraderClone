@@ -17,4 +17,4 @@ I decided to build this project as a way to apply the knowledge that I have lear
 ![AutoTraderCloneSmallGallary_AdobeExpress](https://user-images.githubusercontent.com/116413320/228202163-00cbeff3-d901-4652-84a3-7cdec48aae78.gif)
 
 ## Fullscreen Image Gallary
-![AutoTraderCloneFullScreenGallaryTrimmed_AdobeExpress](https://user-images.githubusercontent.com/116413320/228215274-05f398cb-0dae-4507-ac01-14163ae5e492.gif)
+![Screen_Recording_2023-03-28_at_12_35_40_AdobeExpress](https://user-images.githubusercontent.com/116413320/228235623-d7b204c7-a69d-4fd8-b439-d00f7fffc17e.gif)
