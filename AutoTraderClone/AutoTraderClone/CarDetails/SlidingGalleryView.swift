@@ -51,13 +51,14 @@ struct SlidingGalleryView: View {
             fullscreenGalleryPresented = true
         }
         .fullScreenCover(isPresented: $fullscreenGalleryPresented) {
-            FullscreenGallery(numberOfImages: numberOfImages, currentImageIndex: currentImageIndex, carImageGroup: carImageGroup, carName: carName, price: price)
+           
+            FullscreenGallery(currentImageIndex: currentImageIndex, numberOfImages: numberOfImages, carImageGroup: carImageGroup, carName: carName, price: price)
         }
     }
 }
 
 struct SlidingGalleryView_Previews: PreviewProvider {
     static var previews: some View {
-        SlidingGalleryView(numberOfImages: 13, carImageGroup: "435d-1", carName: "BMW 435d", price: 17240)
+        SlidingGalleryView(numberOfImages: 3, carImageGroup: "5ED16D6C-E9EC-409E-BC6C-501F40069968", carName: "BMW 420d", price: 17240)
     }
 }
