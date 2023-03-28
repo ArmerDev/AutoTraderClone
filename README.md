@@ -17,6 +17,40 @@ I decided to build this project as a way to apply the knowledge that I have lear
 ## Sorting Results
 ![Screen_Recording_2023-03-28_at_14_58_07_AdobeExpress](https://user-images.githubusercontent.com/116413320/228262802-ab45c165-6192-4ec5-8759-2cc0b9accc22.gif)
 
+An array containing the sorting options was assigned to a constant called sortOptions, which is used within a ForEach loop to have each option displayed within the Picker view. The picker is displayed within a Menu view.
+
+```Swift
+let sortOptions = ["Price (Lowest)", "Price (Highest)", "Distance", "Mileage", "Age (Newest first)", "Age (Oldest first)", "Most recent"]
+```
+
+```Swift
+Menu {
+  Picker("Sort Options", selection: $sortedBy) {
+    ForEach(sortOptions, id: \.self) {
+      Text($0)
+      }
+  }
+} label: {
+    Text("\(Image(systemName: "arrow.up.arrow.down")) Sort by")
+}
+```
+
+The selection made in the Picker is stored in a state variable called sortedBy, which causes the views to reload when changed.
+The below switch statement is used in the sort method on the array of vehicles to display the vehicles in the desired sorting order
+
+```Swift
+switch sortedBy {
+  case "Price (Lowest)": return $0.price < $1.price
+  case "Price (Highest)": return $0.price > $1.price
+  case "Distance": return $0.distance < $1.distance
+  case "Mileage": return $0.mileage < $1.mileage
+  case "Age (Newest first)": return $0.year > $1.year
+  case "Age (Oldest first)": return $0.year < $1.year
+  case "Most recent": return $0.dateAdded > $1.dateAdded
+  default: return $0.imageName < $1.imageName
+}
+```
+
 
 ## Recently Searched & Recently Viewed
 ![Screen_Recording_2023-03-28_at_14_23_49_AdobeExpress](https://user-images.githubusercontent.com/116413320/228259587-c8ffe86f-a773-424e-b372-13b6160898fc.gif)
