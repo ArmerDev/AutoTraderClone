@@ -10,7 +10,7 @@ I decided to build this project as a way to apply the knowledge that I have lear
 
 
 ## Search
-![ATCSearch_AdobeExpress](https://user-images.githubusercontent.com/116413320/228252862-0eb7a100-bf53-458d-a136-16347244cdd6.gif)
+![ATCSearch_AdobeExpress](https://user-images.githubusercontent.com/116413320/228253480-a4906624-8709-4afb-a666-059744946dad.gif)
 
 
 ## List View
