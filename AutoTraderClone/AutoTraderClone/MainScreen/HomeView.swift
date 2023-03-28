@@ -106,10 +106,12 @@ struct HomeView: View {
                 ScrollView {
                     
                     //Search Area
-                    SearchCard(make: make, model: model, arrayOfTupes: $arrayOfRecentlySearchedMakeAndModels, arrayOfRecentlyViewed: $arrayOfRecentlyViewed, searchArray: carsArray, showSearchOptions: $showSearchOptions)
+                    SearchCard(arrayOfTupes: $arrayOfRecentlySearchedMakeAndModels, arrayOfRecentlyViewed: $arrayOfRecentlyViewed, showSearchOptions: $showSearchOptions, searchArray: carsArray, make: make, model: model)
                         .sheet(isPresented: $showSearchOptions) {
                             FilterView(modifiableSearchA5: $modifiableCarArray, searchA5: $carsArray)
                         }
+                    
+                    
 
                     if recentArray.recentlyViewedCars.count != 0 {
                         HomeScreenRecentRow(modifiableCarArray: $modifiableCarArray)
@@ -117,7 +119,7 @@ struct HomeView: View {
 
                     ForEach(arrayOfRecentlySearchedMakeAndModels, id: \.self) { car in
                         
-                        HomeScreenRow(homeRowHeading: "\(car.make) \(car.model)", modifyCarArray: $modifiableCarArray, arrayOfRecentlyViewed: $arrayOfRecentlyViewed, selectedModel: car.model, sortedBy: $sortedBy, showOptions: $showOptions, carsArray: $carsArray)
+                        HomeScreenRow(modifyCarArray: $modifiableCarArray, arrayOfRecentlyViewed: $arrayOfRecentlyViewed, sortedBy: $sortedBy, showOptions: $showOptions, carsArray: $carsArray, selectedModel: car.model, homeRowHeading: "\(car.make) \(car.model)")
                     
                     }
                     
@@ -248,21 +250,6 @@ struct NoTapEffectButtonStyle: ButtonStyle {
 }
 
 extension View {
-    /// Hide or show the view based on a boolean value.
-    ///
-    /// Example for visibility:
-    ///
-    ///     Text("Label")
-    ///         .isHidden(true)
-    ///
-    /// Example for complete removal:
-    ///
-    ///     Text("Label")
-    ///         .isHidden(true, remove: true)
-    ///
-    /// - Parameters:
-    ///   - hidden: Set to `false` to show the view. Set to `true` to hide the view.
-    ///   - remove: Boolean value indicating whether or not to remove the view.
     @ViewBuilder func isHidden(_ hidden: Bool, remove: Bool = false) -> some View {
         if hidden {
             if !remove {
