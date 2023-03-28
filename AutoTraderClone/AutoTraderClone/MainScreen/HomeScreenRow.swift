@@ -129,10 +129,3 @@ struct HomeScreenRow: View {
         
     }
 }
-
-struct HomeScreenRow_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeScreenRow(homeRowHeading: "Audi", modifyCarArray: .constant([CarCardData(id: UUID(), make: "", model: "", modelVariant: "", price: 1, color: "", year: 1, mileage: 1, fuelType: "", engineSize: 1.1, enginePower: 1, acceleration: 1.1, gearbox: "", seats: 1, doors: 1, imageName: "", numberOfImages: 1, dateAdded: 1, numberOfOwners: 1, bodyType: "", seller: "", sellerRating: 1.1, description: "", tagline: "", location: "", distance: 1, isLiked: true, recentlyViewed: true)]), arrayOfRecentlyViewed: .constant([]), selectedModel: "5 Series", sortedBy: .constant("Tagline"), showOptions: .constant(true), carsArray: .constant([CarCardData(id: UUID(), make: "", model: "", modelVariant: "", price: 1, color: "", year: 1, mileage: 1, fuelType: "", engineSize: 1.1, enginePower: 1, acceleration: 1.1, gearbox: "", seats: 1, doors: 1, imageName: "", numberOfImages: 1, dateAdded: 1, numberOfOwners: 1, bodyType: "", seller: "", sellerRating: 1.1, description: "", tagline: "", location: "", distance: 1, isLiked: true, recentlyViewed: true)]))
-        
-    }
-}
