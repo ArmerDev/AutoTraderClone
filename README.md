@@ -13,7 +13,11 @@ The home screen consists of a horizontal scrollview displaying vehicle types at 
 ## Search
 ![ATCSearch_2_AdobeExpress](https://user-images.githubusercontent.com/116413320/228256297-14c2d8d4-69fa-460c-9a15-ab5659db7adf.gif)
 
+The Search area consists of a NavigationLink for both  "Select Make" and "Select Model". The navigationLinks present a new screen showing a list of either the vehicle makes or models. The List groups the models and vehicles alphabetically with a header for each letter (only shows a section headers if there is a vehicle make or model in the data that begins with that particular letter).
+
 ![Screen_Recording_2023-03-28_at_14_24_24_AdobeExpress](https://user-images.githubusercontent.com/116413320/228257567-c9b81b85-e59e-49eb-be03-075ef7542d3d.gif)
+
+The drag gesture along the alphabet down the right hand side of the screen was implemented to match the original application. The List of vehicles is shown in a ScrollViewProxy, and this is updated to move to the header of the selected side bar letter.
 
 ## Sorting Results
 ![Screen_Recording_2023-03-28_at_14_58_07_AdobeExpress](https://user-images.githubusercontent.com/116413320/228262802-ab45c165-6192-4ec5-8759-2cc0b9accc22.gif)
