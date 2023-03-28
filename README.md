@@ -12,6 +12,8 @@ I decided to build this project as a way to apply the knowledge that I have lear
 ## Search
 ![ATCSearch_2_AdobeExpress](https://user-images.githubusercontent.com/116413320/228256297-14c2d8d4-69fa-460c-9a15-ab5659db7adf.gif)
 
+![Screen_Recording_2023-03-28_at_14_24_24_AdobeExpress](https://user-images.githubusercontent.com/116413320/228257567-c9b81b85-e59e-49eb-be03-075ef7542d3d.gif)
+
 
 ## List View
 ![AutoTraderCloneListView_AdobeExpress](https://user-images.githubusercontent.com/116413320/228200677-0bcc5457-17c5-4730-8906-b151a60b72d2.gif)
