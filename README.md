@@ -72,3 +72,5 @@ A view was created as a template to display each vehicle in the List view. This 
 
 ## Fullscreen Image Gallary
 ![Screen_Recording_2023-03-28_at_12_35_40_AdobeExpress](https://user-images.githubusercontent.com/116413320/228235623-d7b204c7-a69d-4fd8-b439-d00f7fffc17e.gif)
+
+A fullscreen version of the image gallary was created which is presented when the user taps on an image. The fullscreen version of the gallary also implements an onTap gesture recogniser to hide and present the 'Done' button, as well as the view showing the vehicles name, price and the idicator showing which image is being shown. 
