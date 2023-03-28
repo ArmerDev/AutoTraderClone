@@ -70,6 +70,8 @@ A view was created as a template to display each vehicle in the List view. This 
 ## Image Gallary
 ![AutoTraderCloneSmallGallary_AdobeExpress](https://user-images.githubusercontent.com/116413320/228202163-00cbeff3-d901-4652-84a3-7cdec48aae78.gif)
 
+An image gallary was created using a TabView, with an overlay being used to show the current image number and the total number of images. This indicator updates as the user swipes between different tabs/images. When the user taps on an image, the fullscreen version of the gallary is presented.
+
 ## Fullscreen Image Gallary
 ![Screen_Recording_2023-03-28_at_12_35_40_AdobeExpress](https://user-images.githubusercontent.com/116413320/228235623-d7b204c7-a69d-4fd8-b439-d00f7fffc17e.gif)
 
