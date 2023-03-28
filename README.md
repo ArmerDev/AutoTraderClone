@@ -8,7 +8,7 @@ I decided to build this project as a way to apply the knowledge that I have lear
 ### Home Screen
 ![AutoTraderCloneHome_AdobeExpress](https://user-images.githubusercontent.com/116413320/228197733-c88be345-85b1-4fe1-8759-9266bafe800e.gif)
 
-The home screen consists of a horizontal scrollview displaying vehicle types at the top of the screen (only cars were used in this project) and a search area below which is displayed within a ScrollView. As the user searches and views vehicles, those recent searches and viewed vehicles will be displayed below the search area (this can be seen lower down in this Readme file).
+The home screen consists of a horizontal scrollview displaying vehicle types at the top of the screen (only cars were used in this project) and a search area below which is displayed within a ScrollView. As the user searches and views vehicles, those recent searches and viewed vehicles will be displayed below the search area (this can be seen lower down in this read me file).
 
 ## Search
 ![ATCSearch_2_AdobeExpress](https://user-images.githubusercontent.com/116413320/228256297-14c2d8d4-69fa-460c-9a15-ab5659db7adf.gif)
