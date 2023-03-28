@@ -14,6 +14,10 @@ I decided to build this project as a way to apply the knowledge that I have lear
 
 ![Screen_Recording_2023-03-28_at_14_24_24_AdobeExpress](https://user-images.githubusercontent.com/116413320/228257567-c9b81b85-e59e-49eb-be03-075ef7542d3d.gif)
 
+## Sorting Results
+![Screen_Recording_2023-03-28_at_14_58_07_AdobeExpress](https://user-images.githubusercontent.com/116413320/228262802-ab45c165-6192-4ec5-8759-2cc0b9accc22.gif)
+
+
 ## Recently Searched & Recently Viewed
 ![Screen_Recording_2023-03-28_at_14_23_49_AdobeExpress](https://user-images.githubusercontent.com/116413320/228259587-c8ffe86f-a773-424e-b372-13b6160898fc.gif)
 
